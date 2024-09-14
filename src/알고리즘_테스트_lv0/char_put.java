@@ -1,6 +1,4 @@
-package 알고리즘_테스트;
-
-import java.util.Scanner;
+package 알고리즘_테스트_lv0;
 
 public class char_put {
     public String solution(String my_string, String overwrite_string, int s) {
