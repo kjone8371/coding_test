@@ -1,4 +1,4 @@
-package 알고리즘_테스트;
+package 알고리즘_테스트_lv0;
 
 public class Warehouse_organization {
     public String solution(String[] storage, int[] num) {
