@@ -1,5 +1,6 @@
 import 알고리즘_테스트.pythagoras;
 
+import java.util.Scanner;
 
 
 class Student{
@@ -39,5 +40,28 @@ public class Main {
 
         Student student = new Student(name, age, kor_score, mat_score, eng_score);
         student.printScore(); //인스턴스 메소드 호출
+
+
+        Scanner sc = new Scanner(System.in);
+
+        int year;
+        String ageType;
+
+        // 사용자에게 입력을 요청
+        System.out.println("숫자와 문자열을 동시에 출력");
+        System.out.print("숫자를 입력하세요: ");
+        year = sc.nextInt(); // 정수 입력 받기
+
+        // Scanner의 줄바꿈을 제거하기 위해 추가
+        sc.nextLine();
+
+        System.out.print("문자열을 입력하세요: ");
+        ageType = sc.nextLine(); // 문자열 입력 받기
+
+
+        // 입력된 값 출력
+        System.out.println("입력된 숫자: " + year);
+        System.out.println("입력된 문자열: " + ageType);
+    }
     }
 }
