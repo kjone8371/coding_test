@@ -9,5 +9,6 @@ public class 백준10448번 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 
+
     }
 }
