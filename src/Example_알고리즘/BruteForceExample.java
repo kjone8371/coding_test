@@ -9,7 +9,7 @@ public class BruteForceExample {
         int target = 6;
 
         for (int i = 0; i < arr.length; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
+            for (int j = i; j < arr.length; j++) { // j = i로 변경
                 if (arr[i] + arr[j] == target) {
                     System.out.println(arr[i] + " + " + arr[j] + " = " + target);
                 }
