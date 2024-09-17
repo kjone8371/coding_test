@@ -6,14 +6,14 @@ package Example_알고리즘;
 public class DynamicProgrammingExample {
     public static void main(String[] args) {
         int n = 5;
-        int[] dp = new int[n + 1];
-        dp[0] = dp[1] = 1;
+        int[] arr = new int[n + 1];
+        arr[0] = arr[1] = 1;
 
         for (int i = 2; i <= n; i++) {
-            dp[i] = dp[i - 1] + dp[i - 2];  // 피보나치 수열 계산
+            arr[i] = arr[i - 1] + arr[i - 2];  // 피보나치 수열 계산
         }
 
-        System.out.println("피보나치 수열의 " + n + "번째 값: " + dp[n]);
+        System.out.println("피보나치 수열의 " + n + "번째 값: " + arr[n]);
     }
 }
 
