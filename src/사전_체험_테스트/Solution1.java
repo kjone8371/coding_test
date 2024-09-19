@@ -11,7 +11,7 @@ class Solution1{
         if(v[0][0] == v[1][0]) {
             answer[0] = v[2][0];
         } else if(v[0][0] == v[2][0]) {
-            answer[0] = v[1][0];
+            answer[0] = v[1] [0];
         } else {
             answer[0] = v[0][0];
         }
